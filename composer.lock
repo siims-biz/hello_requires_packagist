@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "706e4c5939bd95d1700846f1ffaf870b",
+    "packages": [
+        {
+            "name": "siims/hello_packagist",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/siims-biz/hello_packagist.git",
+                "reference": "4f68428d9ff154c8657d212fb8e4a507eff70b30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/siims-biz/hello_packagist/zipball/4f68428d9ff154c8657d212fb8e4a507eff70b30",
+                "reference": "4f68428d9ff154c8657d212fb8e4a507eff70b30",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Siims\\HelloPackagist\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "siims",
+                    "email": "system@siims.biz"
+                }
+            ],
+            "description": "Hello World Packagist",
+            "keywords": [
+                "hello world"
+            ],
+            "support": {
+                "issues": "https://github.com/siims-biz/hello_packagist/issues",
+                "source": "https://github.com/siims-biz/hello_packagist/tree/main"
+            },
+            "time": "2023-04-08T14:37:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "siims/hello_packagist": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

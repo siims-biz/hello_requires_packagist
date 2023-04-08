@@ -1,0 +1,21 @@
+{
+    "name": "siims/hello_requires_packagist",
+    "description": "Depends on siims/hello_packagist:dev-main",
+    "type": "library",
+    "require": {
+        "siims/hello_packagist": "dev-main"
+    },
+    "license": "OSL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Siims\\HelloRequiresPackagist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "siims",
+            "email": "system@siims.biz"
+        }
+    ],
+    "minimum-stability": "dev"
+}
