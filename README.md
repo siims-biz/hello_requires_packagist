@@ -1,0 +1,2 @@
+# hello_requires_packagist
+Dependency between hello_packagist and hello_requires_packagist
