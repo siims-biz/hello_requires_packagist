@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f55a44498cc6471bc10eddf299a6b127",
+    "content-hash": "cc8f9ccdd6d9e0b8b43152749f44b4f6",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -160,22 +160,21 @@
         },
         {
             "name": "siims/hello_packagist",
-            "version": "dev-main",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/siims-biz/hello_packagist.git",
-                "reference": "4f68428d9ff154c8657d212fb8e4a507eff70b30"
+                "reference": "5673a4a33a8169ef52baa0f4dfb5144082ba3be2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/siims-biz/hello_packagist/zipball/4f68428d9ff154c8657d212fb8e4a507eff70b30",
-                "reference": "4f68428d9ff154c8657d212fb8e4a507eff70b30",
+                "url": "https://api.github.com/repos/siims-biz/hello_packagist/zipball/5673a4a33a8169ef52baa0f4dfb5144082ba3be2",
+                "reference": "5673a4a33a8169ef52baa0f4dfb5144082ba3be2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -198,16 +197,16 @@
             ],
             "support": {
                 "issues": "https://github.com/siims-biz/hello_packagist/issues",
-                "source": "https://github.com/siims-biz/hello_packagist/tree/v0.0.6-dev"
+                "source": "https://github.com/siims-biz/hello_packagist/tree/0.0.2"
             },
-            "time": "2023-04-08T14:37:50+00:00"
+            "time": "2023-04-14T14:26:53+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
-        "siims/hello_packagist": 20
+        "monolog/monolog": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

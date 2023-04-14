@@ -3,7 +3,7 @@
     "description": "Depends on siims/hello_packagist:dev-main",
     "type": "library",
     "require": {
-        "siims/hello_packagist": "dev-main",
+        "siims/hello_packagist": "*",
         "monolog/monolog": "2.x-dev"
     },
     "license": "OSL-3.0",
@@ -18,5 +18,5 @@
             "email": "system@siims.biz"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
